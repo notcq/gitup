@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="Green">
         <Label Content="Лейбл" FontSize="50" Margin="198,67,358,273"  />
-        <TextBlock Text="Текстблок" Margin="229,161,415,203"/>
+        <TextBlock x:Name="textblock1" Text="Текстблок" Margin="229,161,415,203"/>
         <Button Content="Кнопка" Margin="213,236,213,80" Click="Button_Click"/>
     </Grid>
 </Window>
